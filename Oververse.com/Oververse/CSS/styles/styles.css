@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    flex: 1; /* Ocupar espaço restante */
+    text-align: center; /* Alinhar os itens no centro */
+    margin-top: 10px; /* Espaçamento entre o h2 e o nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article  {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 1%;
+    max-width: 30%;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: #dddddd;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
